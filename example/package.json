@@ -1,23 +1,31 @@
 {
-	"name": "example",
-	"private": true,
-	"version": "0.0.0",
-	"scripts": {
-		"dev": "vite --host",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"three-js-debug-rendertarget": "^2.130.0",
-		"vite": "^3.0.0",
-		"vite-plugin-glsl": "^0.2.0"
-	},
-	"dependencies": {
-		"detect-gpu": "^4.0.32",
-		"postprocessing": "^6.28.3",
-		"stats.js": "^0.17.0",
-		"three": "^0.142.0",
-		"three.cubemap-to-equirectangular": "^1.1.2",
-		"tweakpane": "^3.1.0"
-	}
+  "name": "example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "three-js-debug-rendertarget": "^2.130.0",
+    "vite": "^3.0.0",
+    "vite-plugin-glsl": "^0.2.0"
+  },
+  "dependencies": {
+    "detect-gpu": "^4.0.32",
+    "postprocessing": "^6.28.3",
+    "stats.js": "^0.17.0",
+    "three": "^0.142.0",
+    "three.cubemap-to-equirectangular": "^1.1.2",
+    "tweakpane": "^3.1.0"
+  },
+  "description": "```shell cd example npm install npm run dev ```",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "T_Space"
+  },
+  "author": "",
+  "license": "ISC"
 }
